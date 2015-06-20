@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) { #takes a matrix as argument
 } 
 
 
-## cacheSolve is a function that...
+## cacheSolve is a function that returns the inverse of a matrix given a cached matrix.
 
 cacheSolve <- function(x, ...) {
         i <- x$getinv()
